@@ -1,11 +1,5 @@
 # Individual Homework Assignment 3
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-## Individual Homework Assignment
-
 This should be completed by each student individually. **You may not work on
 this assignment in groups.** Individual assignments are due one week after
 being assigned. Remember that your assignment should be well documented
@@ -48,7 +42,6 @@ real	0m0.141s
 user	0m0.134s
 sys	0m0.007s
 ~~~
-{: .bash}
 
 To time a python script, you may just add time before the `python` or `python3`
 command.
@@ -60,7 +53,6 @@ real	0m4.124s
 user	0m0.032s
 sys	0m0.015s
 ~~~
-{: .bash}
 
 The output includes three numbers; these are reported as minutes, and then
 seconds (with fractions). You should report the 'real' time as the time
@@ -77,7 +69,6 @@ compilation command line. Optimizations can be disabled with `-O0`.
 ~~~
 g++ -O3 montecarlo.cpp -O montecarlo
 ~~~
-{: .bash}
 
 
 ### Random numbers in C++
@@ -95,7 +86,6 @@ need to *cast* integers to doubles.
 int some_int = 1.0;
 double as_double = static_cast<double>(some_int);
 ~~~
-{: .language-cpp}
 
 This is called a *static cast*, and is one of the several different kinds
 of casting done in C++.  The desired type is placed in the angled brackets,
