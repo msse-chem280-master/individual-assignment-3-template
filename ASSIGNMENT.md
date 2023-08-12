@@ -13,8 +13,9 @@ $$ \int_{0}^{1} \frac{1}{1 + x^2} dx $$
 
 using the Monte-Carlo method.
 
-You are to put this into a C++ source file named `estimate_pi.cpp`. You
-do not need to commit the binary to git, only the source file.
+You are to put this into a C++ source file named `montecarlo.cpp`. The file
+already exists in this repository - you just need to add your code to it.
+Also, you do not need to commit the binary to git, only the source file.
 
 In addition, we would like you to time three different versions of
 the code.
