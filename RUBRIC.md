@@ -15,7 +15,7 @@ This assignment is worth 8% of your grade and will be graded out of 20 points.
     <td>
         <p>C++ Code</p> 
         <ul>
-            <li> Assignment saved in file called `estimate_pi.cpp`
+            <li> Assignment saved in file called `montecarlo.cpp`
             <li> Code compiles and runs
             <li> Code reproduces the value of pi using the Monte-Carlo method
         </ul>
