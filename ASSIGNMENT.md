@@ -30,7 +30,7 @@ which can be run on the command line.
 
 ### Timing your code
 
-We would like you to time your code for 10,000,000 iterations. To do
+We would like you to time your code for 10,000,000 points. To do
 this, there is a simple `time` utility installed on your operating
 system (or under WSL). To time your command, add `time` before
 the command:
